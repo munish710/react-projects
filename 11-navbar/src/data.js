@@ -1,3 +1,4 @@
+//Imported React in this file, since the Social Icons are react components.
 import React from "react";
 import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const links = [
