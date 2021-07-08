@@ -43,7 +43,7 @@ const reducer = (state, action) => {
     case "DISPLAY_ITEMS":
       return { ...state, cart: action.payload, loading: false };
     default:
-      return state;
+      throw new Error("No matching action type");
   }
 };
 
