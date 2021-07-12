@@ -11,7 +11,9 @@ function App() {
           value={markDown}
           onChange={(e) => setMarkDown(e.target.value)}
         ></textarea>
-        <article className="result">{markDown}</article>
+        <article className="result">
+          <ReactMarkdown>{markDown}</ReactMarkdown>
+        </article>
       </section>
     </main>
   );
